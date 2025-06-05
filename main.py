@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FastAPI entry point
 
 from fastapi import Request
@@ -23,3 +24,6 @@ async def stripe_webhook(request: Request):
 
 def check_api_access(email: str):
     return USER_TIERS.get(email, "free")
+=======
+# FastAPI entry point
+>>>>>>> 51c294f518d4bce47afc2ad87c508627ac019b57

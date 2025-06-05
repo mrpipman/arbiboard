@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def generate_explainability_prompt(features: dict, shap_values: dict, threshold=0.01):
     """
@@ -11,3 +12,6 @@ def generate_explainability_prompt(features: dict, shap_values: dict, threshold=
         trend = "aumenta" if val > 0 else "riduce"
         explanation += f"- La feature '{feat}' {trend} la probabilità di successo (SHAP: {val:.2f})\n"
     return explanation
+=======
+def generate_prompt(data): return "Explain: " + str(data)
+>>>>>>> 51c294f518d4bce47afc2ad87c508627ac019b57

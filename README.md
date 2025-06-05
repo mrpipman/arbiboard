@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arbiboard™
 
 💡 Arbiboard™ è un'applicazione Web3 avanzata per la creazione, gestione e monetizzazione di strategie decentralizzate in ambito crypto.
@@ -35,3 +36,6 @@ npm run test
 
 ## 📦 Deployment
 Automated via Vercel CI/CD. Each push to `main` triggers build & deploy.
+=======
+# README.md placeholder
+>>>>>>> 51c294f518d4bce47afc2ad87c508627ac019b57
